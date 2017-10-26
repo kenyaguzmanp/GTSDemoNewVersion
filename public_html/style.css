@@ -13,7 +13,8 @@ p{
 
 
 #all-content{
-    margin-top: 157px;
+    margin-top: 111px;
+    /*    margin-top: 157px;*/
 }
 
 h2, h3{
@@ -54,7 +55,8 @@ h2, h3{
 }
 
 .nav>li>a{
-    margin-top: 56px;
+    margin-top: 20px;
+    /*    margin-top: 56px;*/
     /*    margin-top: 40px;*/
     padding: 7px 7px;
     color: #504944;
@@ -63,7 +65,9 @@ h2, h3{
 #logoNavBar{
     padding-top: 20px;
     padding-right: 45px;
-    width: 100%;
+    /*    width: 100%;*/
+    max-width: 117px;
+    height: 91px;
 }
 
 .main-logo{
@@ -136,6 +140,8 @@ nav .container-fluid{
 }
 
 .right-control img{
+    width: 100%;
+/*    max-width: 40px;*/
     padding-right: 10px;
 }
 
@@ -149,6 +155,8 @@ nav .container-fluid{
 }
 
 .left-control img{
+    width: 100%;
+/*    max-width: 40px;*/
     padding-left: 10px;
 }
 
@@ -285,6 +293,7 @@ nav .container-fluid{
 
 
 .img-log{
+    max-width: 37px;
     padding-right: 10px;
 }
 
@@ -384,12 +393,14 @@ body > div {
 
     .nav>li>a {
         font-size: 1.2vw;
-        margin-top: 50px;
+        margin-top: 20px;
         padding: 3px 3px;
     }
-    
+
     .item .thumbnail{
-        width: 25%;
+/*        width: 25%;*/
+
+       width: 80%;
     }
 
 }
@@ -400,18 +411,18 @@ body > div {
         width: 100%;
     }
     #navSec2{
-      padding-right: 0px; 
-     padding-left: 0px; 
+        padding-right: 0px; 
+        padding-left: 0px; 
     }
-    
+
 }
 
 @media only screen and (max-width: 678px) {
-    
+
     .navbar-collapse a{
         font-size: 12px;
     }
-    
+
     .navbar-collapse .nav>li>a {
         font-size: 12px;
         margin-top: 5px;
@@ -420,22 +431,56 @@ body > div {
     #logoNavBar {
         padding-right: 0px;
     }
-    
+
     .item .thumbnail{
+        margin-left: 33px;
         width: 80%;
         margin-bottom: 10px;
     }
-    
+
     .news, .who-are, .contact-us {
-    padding: 10px; 
+        padding: 10px; 
     }
-    
+
     .footText{
         padding: 0px;
     }
-/*    .left-control2 img, .right-control2 img{
-        width: 80%;
-    }*/
+
+    .navig{
+        padding: 0px 30px 10px 30px;
+    }
+
+    .navbar-toggle {
+        margin-top: 40px;
+    }
+
+    .nav>li>a {
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav>li>a {
+        margin-top: 40px;
+    }
+    
+    .left-control2 img{
+       width: 80%;
+    }
+    
+    .right-control2 img{
+       width: 80%;
+    }
+
+    .footText {
+    padding: 50px 0px 0px 0px;
+
+    }
+    .item .thumbnail{
+        margin-left: 33px;
+    }
 
 }
 
