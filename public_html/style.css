@@ -407,6 +407,15 @@ body > div {
 }
 
 @media only screen and (max-width: 678px) {
+    
+    .navbar-collapse a{
+        font-size: 12px;
+    }
+    
+    .navbar-collapse .nav>li>a {
+        font-size: 12px;
+        margin-top: 5px;
+    }
 
     #logoNavBar {
         padding-right: 0px;
